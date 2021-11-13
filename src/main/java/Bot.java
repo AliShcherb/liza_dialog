@@ -6,10 +6,10 @@ public class Bot {
 	private static final String CONDITION_STRING = "<condition>";
 	private CategoryEntry[] database;
 	private String[] defaultResponses = {
-			"Uhhh...ask me something interesting.", "You're boring.",
-			"So what do you like to do?",
-			"I don't understand what you're trying to say.",
-			"I'm sorry can you reword that?" };
+			"Спитай мене про щось цікавіше.",
+			"Так чим би ти хотів зайнятись?",
+			"Я не розумію, що ти намагаєшся сказати.",
+			"Можеш перефразувати?" };
 
 	private String prevResponse = "";
 
@@ -46,7 +46,7 @@ public class Bot {
 
 
 		{
-			String[] keywords = { " чому енс життя " };
+			String[] keywords = { " чому сенс життя " };
 			String[] responses = { "Смерть — це сенс життя." };
 			CategoryEntry ce = new CategoryEntry(keywords, responses);
 			database[index++] = ce;
