@@ -231,12 +231,12 @@ public class Bot {
 			{
 				String[] keywords = { " як тебе звати", "твоє ім’я" };
 				String[] responses = {
-						"Мене звати Chatbot :) Я знаю, що тебе звати "
+						"Мене звати Фотя :) Я знаю, що тебе звати "
 								+ CONDITION_STRING,
-						"Мене звати Chatbot, як тебе звати "
+						"Мене звати Фотя, як тебе звати "
 								+ CONDITION_STRING };
 
-				String[] noConditionResponses = { "Мене звати ChatBot :)." };
+				String[] noConditionResponses = { "Мене звати Фотя :)." };
 				UserAnswerEntry ce = new UserAnswerEntry(keywords, responses,
 						noConditionResponses, nameCE);
 				database[index++] = ce;
